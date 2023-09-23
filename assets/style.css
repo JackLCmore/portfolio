@@ -1,0 +1,42 @@
+:root{
+    --b: darkblue;
+    --w: white;
+    --y: lightyellow;
+}
+
+header{
+    width: 100%;
+    font-size: 24px;
+    color:var(--w);
+    background-color: var(--b);
+}
+h1{
+padding: 5px;
+margin: 5px;
+}
+h2{
+    color:var(--b);
+    margin:10px;
+}
+nav{
+    background-color: skyblue;
+    border: 2px solid black;
+    display:inline-flex;
+    padding:5px;
+    text-decoration: underline;
+    width:99%;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+h2 a:hover{
+    color:var(--y);
+}
+
+section img{
+    float:right;
+    margin-right:20px;
+    width:20%;
+    height:20%;
+}
+
