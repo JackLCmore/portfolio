@@ -10,11 +10,13 @@ body{
     background-image: linear-gradient(
          var(--w) 0%, grey 100%
     );
+    
 }
 
 p{
     font-family: cursive;
     font-weight:900;
+    font-size: 24px;
 }
 
 
@@ -44,8 +46,9 @@ h3{
     background-color: var(--lb);
     border: 2px solid black;
     border-radius: 10px;
-    width: 8%;
+    width: 15%;
     padding: 5px;
+    font-size: 30px;
 }
 
 nav{
@@ -69,6 +72,7 @@ section img{
     border-radius: 10px;
     width: 15%;
     height: 15%;
+    margin: 30px;
 }
 
 section a img{
