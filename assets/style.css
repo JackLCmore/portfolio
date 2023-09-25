@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 :root{
     --b: darkblue;
     --w: white;
@@ -10,10 +14,10 @@ body{
     background-image: linear-gradient(
          var(--w) 0%, grey 100%
     );
-    
+
 }
 
-p{
+p, li{
     font-family: cursive;
     font-weight:900;
     font-size: 24px;
@@ -45,7 +49,7 @@ h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--lb);
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius:10px;
     width: 15%;
     padding: 5px;
     font-size: 30px;
@@ -76,8 +80,9 @@ section img{
 }
 
 section a img{
+    display: inline-block;
+    vertical-align: middle;
     border-radius: 10px;
-    float:right;
     margin-right:20px;
     width:20%;
     height:20%;
@@ -93,4 +98,34 @@ section a img:hover{
     -webkit-background-clip: text;
     color: transparent;
     font-size:48px;
+}
+
+article p{
+    text-align: center;
+}
+
+@media screen and (max-width: 576px ) {
+h3{
+    width:60%;
+    height:60%;
+}
+section a img{
+    width: 100%;
+}
+section img{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 768px) {
+h3{
+    width:30%;
+    height:30%;
+}
+section a img{
+    width: 50%;
+}
+section img{
+    width: 50%;
+}
 }
