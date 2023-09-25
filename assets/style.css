@@ -11,18 +11,19 @@
 }
 
 body{
-    background-image: linear-gradient(
-         var(--w) 0%, grey 100%
-    );
+    background-image: linear-gradient(grey,black);
 
 }
 
 p, li{
-    font-family: cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:900;
     font-size: 24px;
 }
 
+article p{
+    color: var(--w);
+}
 
 header{
     border-radius: 10px;
@@ -46,9 +47,10 @@ h2{
 
 h3{
     text-align: center;
+    color: var(--w);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--lb);
-    border: 2px solid black;
+    background-color: var(--b);
+    border:0px;
     border-radius:10px;
     width: 15%;
     padding: 5px;
@@ -56,13 +58,13 @@ h3{
 }
 
 nav{
+    color: var(--bl);
     border-radius: 10px;
     background-color:var(--lb);
-    border: 2px solid var(--bl);
     display:inline-flex;
     padding:5px;
     text-decoration: underline;
-    width:99%;
+    width:100%;
     justify-content: end;
     flex-wrap: wrap;
 }
