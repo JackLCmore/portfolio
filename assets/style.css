@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: linear-gradient(grey,black);
+    background-image: linear-gradient(lightgrey,black);
 
 }
 
@@ -26,11 +26,13 @@ article p{
 }
 
 header{
+    border: 1px solid #db36a4;
+    box-shadow: 5px 5px 5px #db36a4;
     border-radius: 10px;
     width: 100%;
     font-size: 24px;
-    color:var(--w);
-    background-color: var(--b);
+    color:var(--bl);
+    background-color:#f7ff00;
 }
 
 h1{
@@ -46,11 +48,12 @@ h2{
 }
 
 h3{
+    box-shadow: 5px 5px 5px #db36a4;
     text-align: center;
-    color: var(--w);
+    color: var(--bl);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--b);
-    border:0px;
+    background-color:#f7ff00;
+    border:1px solid #db36a4;
     border-radius:10px;
     width: 15%;
     padding: 5px;
@@ -58,11 +61,14 @@ h3{
 }
 
 nav{
-    color: var(--bl);
+    border: 1px solid #f7ff00;
+    box-shadow: 5px 5px 5px #f7ff00;
+    color: #f7ff00;
     border-radius: 10px;
-    background-color:var(--lb);
+    background-color:#db36a4;
     display:inline-flex;
     padding:5px;
+    margin-top: 10px;
     text-decoration: underline;
     width:100%;
     justify-content: end;

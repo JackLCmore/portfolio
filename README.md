@@ -1,14 +1,16 @@
 # Jack Lunchick-Seymour's Portfolio
 
 ## Table of Contents
-* [Visit My Portfolio](visit-my-portfolio)
+* [Portfolio Info](portfolio-info)
 * [Resources Used](#resources-used)
 * [Credits](#credits)
 * [Contact Info](#contact-info)
 
-## Visit My Portfolio
+## Portfolio Info
 
 [Portfolio Website](https://jacklcmore.github.io/portfolio/)
+
+As a budding full-stack web dev it is my goal through this portfolio not only to showcase my current, past and upcoming projects but to improve as well! As time goes by I intend to use this very portfolio as an ongoing log of my progress, each iteration of the portfolio improving from the last.
 
 ## Resources Used
 
