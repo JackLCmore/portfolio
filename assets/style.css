@@ -112,6 +112,19 @@ article p{
     text-align: center;
 }
 
+#gonutz-pic{
+    height: 500px;
+    width: 50%;
+}
+#quiz-pic{
+    height: 500px;
+    width: 45%;
+}
+#schedule-pic{
+    height: 500px;
+    width: 45%;
+}
+
 @media screen and (max-width: 576px ) {
 
 section a img{
