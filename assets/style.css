@@ -112,15 +112,7 @@ article p{
     text-align: center;
 }
 
-#gonutz-pic{
-    height: 500px;
-    width: 50%;
-}
-#quiz-pic{
-    height: 500px;
-    width: 45%;
-}
-#schedule-pic{
+.port-pics{
     height: 500px;
     width: 45%;
 }
